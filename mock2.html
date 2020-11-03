@@ -3,17 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="side-icons.css">
-  
+  <link rel="stylesheet" href="mock.css">
 
   <title>My website</title>
 </head>
 <body>
 
   <!----header ---->
-  <section id="header">
+  <section id = "header">
+  <input type="checkbox" id="navcheck" role="button" title="menu">
+  <label for="navcheck" aria-hidden="true" title="menu">
+    <span class="burger">
+      <span class="bar">
+        <span class="visuallyhidden">Menu</span>
+      </span>
+    </span>
+  </label>
+  <nav id="menu">
+    <a href="#">Lorem.</a>
+    <a href="#">Nesciunt!</a>
+    <a href="#">Magnam.</a>
+    <a href="#">Ipsum.</a>
+    <a href="#">Voluptatem.</a>
+    <a href="#">Quibusdam.</a>
+  </nav>
+</section>
+  <!-- <section id="header">
     <div class="header container">
       <div class="nav-bar">
         <div class="brand">
@@ -34,11 +50,11 @@
             <!-- <li> <div>
               <button onclick="show_hide()">Contact</button>
             </div></li> -->
-          </ul>
+          <!-- </ul>
         </div>
       </div>
-    </div>
-  </section>
+    </div> -->
+  <!-- </section>  -->
 
 
   <!-- --header ---->
@@ -58,55 +74,18 @@
       <!-- <a href="projects.html" type="button" class="cta">Portfolio</a> -->
     </div>
     <!-- </div> -->
-    <div class="side">
-      <nav>
-        <ul>
-            
 
-            <li> 
-                <a href="https://www.facebook.com/sharanya.sisodia/" target="_blank" >
-                     <span>Facebook</span><i class="fab fa-facebook-f"></i>
-                </a>
-            </li>
-
-            <li> 
-                <a href="  https://www.linkedin.com/in/sharanyasisodia/" target="_blank">
-                    <i class="fab fa-linkedin-in"></i><span>linkedin</span>
-                </a>
-            </li>
-
-            <li> 
-                <a href="https://github.com/sharanyasisodia/" target="_blank">
-                    <i class="fab fa-github"></i><span>github</span>
-                </a>
-            </li>
-
-            <li> 
-                <a href="mailto:purva2016lko@gmail.com" target="_blank">
-                    <i class="fas fa-envelope"></i><span>Email</span>
-                </a>
-            </li>
-
-            <li> 
-                <a href="SharanyaSisodia.pdf" target="_blank">
-                    <i class="fas fa-download"></i><span>Resume</span>
-                </a>
-            </li>
-
-        </ul>
-    </nav>
-  </div>  
-    <!-- <div class="contact"> -->
+    <div class="contact">
       <!-- <h1 class="section-title">contact <span>info</span></h1> -->
       
-      <!-- <div class="contact-item"> -->
+      <div class="contact-item">
         <!-- <div class="icon"> -->
           <!-- <img src="https://img.icons8.com/bubbles/50/000000/important-mail.png"/> -->
         <!-- </div> -->
-        <!-- <div class="social-item">
-        <a href="mailto:purva2016lko@gmail.com" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/important-mail.png"/></a>  -->
+        <div class="social-item">
+        <a href="mailto:purva2016lko@gmail.com" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/important-mail.png"/></a> 
         <!-- <p>purva2016lko@gmail.com</p> -->
-      <!-- </div>
+      </div>
 
       <div class="social-item">
       <a href="https://twitter.com/sharanyasisodia" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/twitter.png"/></a>
@@ -127,7 +106,7 @@
       </div>
       </div>
     </div>  
-  </section> -->
+  </section>
 <!----hero section---->
 
   <!-- <section id="services">

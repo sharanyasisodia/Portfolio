@@ -1,31 +1,41 @@
 <html>
     <head>
+        <link rel="stylesheet" href="timeline.css">
+        <link rel="stylesheet" href="footer.css">
+
         <link rel="stylesheet" href="style.css">
+        
         <title>My website</title>
     </head>
 
 <body>
+  <!----header ---->
   <section id="header">
     <div class="header container">
-          <div class="nav-bar">
-            <div class="brand">
-              <a href="#hero"><h1><span>S</span>haranya <span>S</span>isodia</h1></a>
-            </div>
-            <div class="nav-list">
-              <div class="hamburger">
-                <div class="bar"></div>
-              </div>
-              <ul>
-                <li><a href="index.html" data-after="Home">Home</a></li>
-                <li><a href="projects.html" data-after="Projects">Projects</a></li>
-                <li><a href="interns.html" data-after="Internships">Internships</a></li>
-                <li><a href="services.html" data-after="Skills">Skills</a></li>  
-                <!-- <li><a href="contact.html" data-after="Projects">Contact</a></li> -->
-              </ul>
-            </div>
-          </div>
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero"><h1><span>S</span>haranya <span>S</span>isodia</h1></a>
         </div>
-      </section>
+        
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="index.html" data-after="Home">Home</a></li>
+            <li><a href="projects.html" data-after="Projects">Projects</a></li>
+            <li><a href="interns.html" data-after="Internships">Internships</a></li>
+            <li><a href="services.html" data-after="Skills">Skills</a></li>  
+            <!--<li><a href="contact.html" data-after="Projects">Contact</a></li>-->
+            <!-- <li><a class = "contact">Contact</a></li> -->
+            <!-- <li> <div>
+              <button onclick="show_hide()">Contact</button>
+            </div></li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
         
@@ -36,7 +46,7 @@
             <h2>Encryption/ decryption for SMS in Android System</h2>
 
              -->
-            <!-- <p>Lead the effort of experimenting with a VGG-19 model to classify malaria parasitized blood smear images which is trained on the NIH dataset resulting in an accuracy of 97%.</p> --> -->
+            <!-- <p>Lead the effort of experimenting with a VGG-19 model to classify malaria parasitized blood smear images which is trained on the NIH dataset resulting in an accuracy of 97%.</p> --> 
           <!-- </div>
       
           <div  class="back-card">
@@ -85,8 +95,8 @@
         </div>
       </div>
     </div> -->
-    <section id="intern">
-      <div class="intern container">
+    <!-- <section id="intern"> -->
+      <!-- <div class="intern container">
         <div class="headers">
         <h1 class="section-title"><span>I</span>nternsh<span>i</span>ps</h1>
         </div>
@@ -133,8 +143,93 @@
                 </div> 
               </div>
               </div>
+  </div> -->
+  <div class="headers">
+    <h1 class="section-title"><span>I</span>nternsh<span>i</span>ps</h1>
+    </div>
+  <div class="wrapper">
+    <div class="timeline-area">
+      <div class="line-area"></div>
+        <div class="single-item active">
+          <span>July-June 2018</span>
+          <div class="img-area">
+            <a href="#">
+              <img src="aktu.jfif" alt="">
+              <span>June-July'18</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="single-item active">
+          <span>Dec'19</span>
+          <div class="img-area">
+            <a href="#">
+              <img src="al.jfif" alt="">
+              <span>Dec'18-Jan'19</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="single-item active">
+          <span>Jan-May'20</span>
+          <div class="img-area">
+            <a href="#">
+              <img src="cts1.jfif" alt="">
+              <span>Jan-May'20</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="single-item active">
+          <span>Sept'20-Present</span>
+          <div class="img-area">
+            <a href="#">
+              <img src="cts1.jfif" alt="">
+              <span>Sept'20-Present</span>
+            </a>
+          </div>
+        </div>
+      </div>
   </div>
 </section>
-<script src="app.js"></script>
+
+
+<footer> 
+  <section>
+      <div class= "footer-item">
+          <!-- <div class="social-item"> -->
+              <a href="mailto:purva2016lko@gmail.com" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/important-mail.png"/></a> 
+              <!-- <p>purva2016lko@gmail.com</p> -->
+            <!-- </div> -->
+      
+          <!-- <div class="social-item"> -->
+              <a href="https://twitter.com/sharanyasisodia" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/twitter.png"/></a>
+            <!-- </div> -->
+            <!-- <div class="social-item"> -->
+              <a href="  https://www.linkedin.com/in/sharanyasisodia/" target="_blank"><img src="https://img.icons8.com/doodle/48/000000/linkedin-circled.png"/></a>
+            <!-- </div>
+        
+            <div class="social-item"> -->
+              <a href="https://github.com/sharanyasisodia/" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/github.png"/></a>
+            <!-- </div> -->
+
+
+      </div>
+      <div class="resume">
+          <a href="SharanyaSisodia.pdf" target="_blank" class="cat">Download Resume</a>
+        </div>
+  </section>  
+</footer>
+
+<!-- <script src="app.js"></script> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+  console.log("script working");
+  $(".wrapper .single-item > span").on("mouseenter mouseleave", function(e){
+    $(".wrapper .single-item.active").removeClass("active");
+    $(this).parent().addClass("active");
+  });
+</script>
 </body>
 </html>
